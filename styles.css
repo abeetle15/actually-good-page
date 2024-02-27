@@ -22,7 +22,7 @@ body {
 .header,
 .section-one {
   background-color: #1F2937;
-  padding: 15px 150px;
+  padding: 25px 150px 0px;
 }
 
 .header {
@@ -72,7 +72,8 @@ body {
       background-color: #3B82F6;
       border-radius: 8px;
       color: #FEFEFF;
-      padding: 8px 20px;
+      padding: 8px 30px;
+      font-weight: 600;
     }
 
   .container-img {
@@ -82,7 +83,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #6D747D;
-    color: #A4A8AE;
+    color: #cecfd1;
+    background-image: url(images/federer-med.jpeg);
+    background-size: cover;
   }
 
 .section-two {
@@ -91,8 +94,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 70px 150px 130px;
-  gap: 30px;
+  padding: 70px 150px 50px;
+  gap: 40px;
 }
   h2 {
     font-size: 36px;
@@ -104,7 +107,7 @@ body {
     flex: 1;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
   }
     .sub-cont-two {
       display: flex;
@@ -114,6 +117,33 @@ body {
       text-align: center;
       gap: 8px;
     }
+      .sect-two-pics {
+        height: 220px;
+        width: 160px;
+        border: solid 2px #3B82F6;
+        border-radius: 8px;
+        background-size: cover;
+      }
+        .sect-two-pics.one {
+          background-image: url(images/grass\ federer.jpeg);
+        }
+        .sect-two-pics.two {
+          background-image: url(images/service-federer.jpeg);
+        }
+        .sect-two-pics.three {
+          background-image: url(images/shouty-federer.jpeg);
+        }
+        .sect-two-pics.four {
+          background-image: url(images/grass\ federer.jpeg);
+        }
+
+      .sect-two-label {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 1 100px;
+        max-width: 100px;
+      }
 
 .section-three {
   display: flex;
@@ -139,7 +169,7 @@ body {
     .author {
       margin-left: auto;
       color: #1F2937;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: 800;
     }
 
@@ -157,7 +187,7 @@ body {
     align-items: center;
     background-color: #3B82F6;
     border-radius: 8px;
-    padding: 30px 120px;
+    padding: 30px 150px;
   }
     .sub-cont-foot {
       display: flex;
@@ -176,11 +206,13 @@ body {
         color: #d2d3d5;
       }
       .sign-up.bottom {
+
       all: unset;
       background-color: #3B82F6;
       border-radius: 8px;
       border: solid #FEFEFF;
       color: #FEFEFF;
       padding: 8px 20px;
+      width: 70px;
       }
 
